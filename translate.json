@@ -1,0 +1,46 @@
+var actions = {
+	"triggers": {
+		"status": [ "covered", "status", "membership" ],
+		"thanks": [ "thank", "cheers" ],
+		"bye": [ "bye", "logout" ],
+		"hello": [ "hi", "hello" ],
+		"phone": [ "call me", "phone me" ],
+		"bookings": [ "bookings", "booked", "trip", "trips" ],
+		"offers": [ "offers", "special", "updates" ],
+		"help": [ "help" ],
+		"personal": [ "profile", "personal", "details", "address", "phone" ],
+		"password": [ "password" ],
+		"cancel": [ "cancel" ],		
+		"lost": [ "lost", "stolen" ],
+    "payment": [ "payment", "transaction" ],
+    "login": [ "login" ],
+    "unlock": [ "unlock", "unblock" ],
+    "reset": [ "reset" ]
+
+	},
+	"responses": {
+    "start": "Welcome to Ping Identity.<br>How can we help?",
+		"help": "OK. Here are some things you can try: <br>- Lost or stolen phone.<br>- Unlock card.<br>- Last payment<br>- Personal details?<br>- Stop sending me offers.<br>- Check password.<br>- Reset password.",
+		"hello": "Hi {NAME}. How can we help?",
+		"helloanon": "Hi, how can we help?",
+		"error": "Sorry, something went wrong",
+		"status": "Rest assured {NAME}, your membership is active until {RENEW}.",
+		"renew": "Thanks {NAME}, we'll process the payment shortly, but rest assured your membership is now active until {RENEW}.",
+		"stranded": "OK, we're on our way. Our ETA to your location is about 18 minutes.",
+		"expired": "Sorry {NAME}, it looks like your membership has expired.",
+		"emergency": "OK, we'll escalate your incident. Do you need the emergency services?",
+		"welcome": "Hello {NAME} and welcome back to {BEHAVIOUR}. What can I help you with?",
+		"offers": "OK, no problem. I've put a temporary freeze on your notifications. {EMOJI}",
+		"lost": "Oh dear, sorry to hear that. But don't worry - I've immediately blocked your phone so your account is still safe.",
+    "personal": "Here are the details we have for you:",
+		"thanks": "You're very welcome.",
+		"bye": "Bye, and thanks for using {BEHAVIOUR} {EMOJI}",
+		"unknown": "Sorry, no idea {EMOJI}",
+		"bookings": "You currently have these bookings:",
+		"password": "Your password was last updated on <strong>{PASSWORD}</strong>",
+		"phone": "Yes, sure {NAME}. You should get a call from Rick from our advisor team in just a second or two ...",
+    "paymentNone": "There are no recent payments from your account.",
+    "payment": "This was the last transaction from your account:",
+    "reset": "Please check your email box for a password reset link."
+	}
+}

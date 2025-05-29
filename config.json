@@ -1,0 +1,30 @@
+var CONFIG = {
+    "tenant": "https://openam-jonknight.forgeblocks.com",
+    "journey": "Application - Chatbot",
+    "logo": "https://www.pngplay.com/wp-content/uploads/2/Green-Leaves-PNG-Photos.png",
+    "scope": "openid profile fr:idm:*",
+    "redirectUri": "https://jonknightfr.github.io/Chatbot/",
+    "client": { 
+        "id": "SPAWebApps", 
+        "secret": "notsecret" 
+    },
+    "ciba_client" : { 
+        "id": "CIBA", 
+        "secret": "secret"
+    },
+    "ciba_mesg": "Allow ForgeBank to transfer £500 to account ending in 5430",
+    "ciba_acr": "push",
+    "jwk" : {
+        "p": "7aIjIeRDFQ-retGSNs2YTBeO2yXH0aBVdjt2vBml6K-27s0cwhae6hpMa_XIJa4hlm1UHgT4Kva3XcXs1dI4DVK25XyG5FSs6JChx5XPd0FRIWfbYYITDUOtzvSwKlhtqMeR5pTrDbRe1BtqnEyyrVCP78lRhm-TdgS3UtfZoQs",
+        "kty": "RSA",
+        "q": "wbXL6idfKwG0OfIrXxSx5TfWEXIrlbwK3cRQlGVceESvjkASk2B9WQNX652ytFaGDJuYDKTeSfBxSa-eDkrLNhHMvVB8D-NwRs2vb5olyBm53Lc7cAJ5jJ1FcFOl7hUm4tB4wGAWLISSfGIDtULc6AWtG05OIPSR9FP4M-em38k",
+        "d": "TE6j17UDQkpqbeetRBxZvcECPqPWjiDBlXtRZXw-IKzG0W4x1M2pfJkfknT6P4CE7qQk3e-o-58NE9Ktn-b6G6_fglM66CoK0sqDIHIW971MDDn1j1M3JZaLRpwvMSKfxqy3zK7dp4qAwMYRiiU_22oKgfDqrcNn56oRygWgi1gG6-6o2eqMGxce1svd8-g9hrMK4Xjoqy_OZ8kQdPviu4jkv26dpQ1aEGBQnK71Lp-1KIejz7r6-x3_lxPTYa005lMYgSBTVcZCc3BcMoeM48SRuhj2p1crFojeJIAyxQB00f9KOXFPPUhE1EbYfgz780-8pGEP85aQY9p0CEx5QQ",
+        "e": "AQAB",
+        "use": "sig",
+        "qi": "kWSq_Lj26Jn5AONxntQuBV0OPrPDSZs6DbdsRzClQceOTkIZRz5jiVySaKpAew3FHad-MxsGYhhKqk_TonjMGSsA2b35gBuGEynTeSyYl9jv9rlLaSRPskWrXMMxGLSKZUji_ptM6YlDNPEQk0Ro6qI5nmR0reywSEC1yn4quUk",
+        "dp": "I5Ed8weoJrHWt6ZAXSV-gv0Pq6tG8hAuWmjiB5tLIr2SAsH-aOpb1Kwk_g-makVaz5oDeg7CWiPdJBLotMQnEY9swoJV6jzmOFTVcfrxN2c2TmquAjUmxth3Xj9vUpczqoxcQQfO-pkhjFuiJEyyfZBOStR1-Eog5wwjqCmYcCs",
+        "alg": "RS256",
+        "dq": "wQfDQvum9zlEenXbSG1b9LnWZR4rVpPDFEjbr3TuV57CfnNUz23Ymwoc49sKyHBsNkYal4b3SCEFE1OgokdgBupn5sM8TazsJnIy_3hRa_xO3SXuYejlbP0PxCZm9EA5ts3ddn6JuiUFwFL_tPIDJmb5oHtAmdB9XUcLz9Vo0hk",
+        "n": "s8_9aFCo_buPjw9PFaCetSxK9aLli6WSHfEdbOy0FqIlBeZ6VtBN2vwGcHxqqwLgN8DZ_ElCVy_Vds--fJAgbMfOrunrj2FprVq9ILTGLLyxjbJUQLv7XkVyqfMquMXMUY7OMoC9TokdhZqfbTrRW11Q7V1N2_lHDSmU5To74EYwPsOukXbJO3y8qVRmynOXB8AaCFHAuHbNWYAu3Nz35-Dpvj1okjMeUCRoCxAYQZkN_sSW-mLCuFWidjMsxTSpJ7CUqh13t8dmUUXC-jy-coKFDKryXOAgzEH4wCpr-wfEgFTYAZestycD8vP6MsqfPmn2LiweufTs0S6yZ0oGow"
+    }
+};
