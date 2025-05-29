@@ -5,8 +5,7 @@ var CONFIG = {
     "scope": "openid profile fr:idm:*",
     "redirectUri": "https://jonknightfr.github.io/Chatbot/",
     "client": { 
-        "id": "SPAWebApps", 
-        "secret": "notsecret" 
+        "id": "SDKApp"
     },
     "ciba_client" : { 
         "id": "CIBA", 
