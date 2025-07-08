@@ -12,15 +12,15 @@ var actions = {
 		"password": [ "password" ],
 		"cancel": [ "cancel" ],		
 		"lost": [ "lost", "stolen" ],
-    "payment": [ "payment", "transaction" ],
-    "login": [ "login" ],
-    "unlock": [ "unlock", "unblock" ],
-    "reset": [ "reset" ]
-
+    	"payment": [ "payment", "transaction" ],
+    	"login": [ "login" ],
+    	"unlock": [ "unlock", "unblock" ],
+    	"policy": [ "policy", "insurance" ],
+    	"reset": [ "reset" ]
 	},
 	"responses": {
-    "start": "Welcome to Ping Identity.<br>How can we help?",
-		"help": "OK. Here are some things you can try: <br>- Lost or stolen phone.<br>- Unlock card.<br>- Last payment<br>- Personal details?<br>- Stop sending me offers.<br>- Check password.<br>- Reset password.",
+    	"start": "Welcome to Ping Identity.<br>How can we help?",
+		"help": "OK. Here are some things you can try: <br>- Lost or stolen phone.<br>- Unlock card.<br>- Last payment<br>- View policy<br>- Personal details?<br>- Stop sending me offers.<br>- Check password.<br>- Reset password.",
 		"hello": "Hi {NAME}. How can we help?",
 		"helloanon": "Hi, how can we help?",
 		"error": "Sorry, something went wrong",
@@ -32,15 +32,16 @@ var actions = {
 		"welcome": "Hello {NAME} and welcome back to {BEHAVIOUR}. What can I help you with?",
 		"offers": "OK, no problem. I've put a temporary freeze on your notifications. {EMOJI}",
 		"lost": "Oh dear, sorry to hear that. But don't worry - I've immediately blocked your phone so your account is still safe.",
-    "personal": "Here are the details we have for you:",
+    	"personal": "Here are the details we have for you:",
 		"thanks": "You're very welcome.",
 		"bye": "Bye, and thanks for using {BEHAVIOUR} {EMOJI}",
 		"unknown": "Sorry, no idea {EMOJI}",
 		"bookings": "You currently have these bookings:",
+		"policy": "You currently have these policies:",		
 		"password": "Your password was last updated on <strong>{PASSWORD}</strong>",
 		"phone": "Yes, sure {NAME}. You should get a call from Rick from our advisor team in just a second or two ...",
-    "paymentNone": "There are no recent payments from your account.",
-    "payment": "This was the last transaction from your account:",
-    "reset": "Please check your email box for a password reset link."
+    	"paymentNone": "There are no recent payments from your account.",
+    	"payment": "This was the last transaction from your account:",
+    	"reset": "Please check your email box for a password reset link."
 	}
 }
