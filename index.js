@@ -214,9 +214,8 @@ function processMessage(message) {
             pendingRequest = message;
             userLogin();
         } else {
-            var policies = "Policies references:<br><hr>";
-            replyMessage(actions["responses"]['policies']);                   
-            policies += '<strong>321234</strong> - Pet Insurance<br>Renewal: 28th Nov 2026';
+            var policies = "Current policies:<br><hr>";
+            policies += '<strong>Policy no. 321234</strong> - Pet Insurance<br>Platinum Tier<br>Renewal: 28th Nov 2026';
             replyMessage(policies);
         }
     } else if (anyOfTriggers(message, 'bookings')) {
